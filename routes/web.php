@@ -5,7 +5,7 @@ use App\Http\Controllers\AdminUserController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes Ejemlo
+| Web Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/asd', function () {
-    return view('asd');
+Route::get('/test', function () {
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
